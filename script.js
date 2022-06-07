@@ -10,6 +10,7 @@ setTimeout(() => {
         mainColor: '800080',
         email: 'yuvraj.u@yudiz.in',
         refId: '620f42fcc8afd9e5041d635f',
+        env: 'staging'
     });
     blockpass.startKYCConnect()
 

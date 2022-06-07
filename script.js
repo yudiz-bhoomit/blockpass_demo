@@ -4,13 +4,12 @@ kycButton.addEventListener('click', (e) => {
     console.log('button clicked');
 });
 
-setTimeout(() => {
+setTimeout(() => {  
     const blockpass = new BlockpassKYCConnect('bfk_warzone_8b8bd', {
         elementId: 'kyc',
         mainColor: '800080',
         email: 'yuvraj.u@yudiz.in',
         refId: '620f42fcc8afd9e5041d635f',
-        env: 'staging'
     });
     blockpass.startKYCConnect()
 

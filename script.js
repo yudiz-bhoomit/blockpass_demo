@@ -5,7 +5,7 @@ kycButton.addEventListener('click', (e) => {
 });
 
 setTimeout(() => {  
-    const blockpass = new BlockpassKYCConnect('bfk_warzone_8b8bd', {
+    const blockpass = new BlockpassKYCConnect('test_670fd', {
         elementId: 'kyc',
         mainColor: '800080',
         email: 'yuvraj.u@yudiz.in',
